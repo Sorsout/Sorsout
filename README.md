@@ -1,16 +1,31 @@
-## Hi there 👋
+# Hi, I'm Mahammad 👋
 
-<!--
-**Sorsout/Sorsout** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Junior Data Analyst from Baku, Azerbaijan. I am currently developing my data analytics skills through Code Academy and building projects to improve my portfolio.
 
-Here are some ideas to get you started:
+## About me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Interested in data analytics, reporting and visualization
+- Working with SQL, Python, Excel, Power BI and R
+- Focused on data cleaning, analysis and dashboard creation
+- Curious, detail-oriented and motivated to keep learning
+- Open to junior data analyst opportunities and real-world projects
+
+## Skills
+
+- SQL
+- Python
+- Excel
+- Power BI
+- R
+- Data Cleaning
+- Data Visualization
+- Reporting
+- Problem Solving
+
+## Current focus
+
+I am currently improving my data analytics portfolio and working on projects that show practical insights from real datasets.
+
+## Contact
+
+📧 Email: rafiyevmahammad@gmail.com
