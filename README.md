@@ -1,145 +1,129 @@
-# Hi, I'm Mehemmed 👋
+<h1 align="center">Hi, I'm Mehemmed 👋</h1>
 
-I'm a C# / .NET developer focused on building backend applications and learning modern software architecture.
+<p align="center">
+  <b>C# / .NET Backend Developer</b> in the making — building real projects, learning modern software architecture, one commit at a time.
+</p>
 
-I learn by building practical projects with **C#, ASP.NET Core, Entity Framework Core, PostgreSQL, REST APIs, authentication and authorization**.
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+## 🧭 About me
+
+I learn by **building practical projects**. My focus is backend development with **C#, ASP.NET Core, Entity Framework Core and PostgreSQL**: REST APIs, authentication and authorization, clean architecture, and writing code that is easy to test and maintain.
+
+- 🔭 Currently building: **F1 Telemetry**, a full-stack app with real 2026 Formula 1 data
+- 🌱 Currently learning: advanced ASP.NET Core, backend architecture, API security and database design
+- 🧪 Practicing: unit testing, refactoring and clean, maintainable code
+- 🎯 Goal: become a strong C# / .NET Backend Developer through real-world projects
+
+---
 
 ## 🛠️ Tech Stack
 
-* **Languages:** C#
-* **Backend:** .NET, ASP.NET Core, Minimal APIs
-* **Database:** PostgreSQL, Entity Framework Core
-* **Architecture:** Clean Architecture concepts, Vertical Slice Architecture, CQRS
-* **Security:** JWT Authentication, Role-Based Authorization, BCrypt
-* **Testing:** Unit Testing, xUnit
-* **Frontend:** HTML, CSS, JavaScript
-* **Other:** LINQ, Async/Await, Git
-
-## 🚀 Projects
-
-### TaskFlow CLI
-
-A console-based task tracker built with C#.
-
-**Technologies:** C#, JSON, Async/Await, File I/O
-
-* Task management
-* JSON data persistence
-* Asynchronous file operations
+| Area | Technologies |
+|---|---|
+| **Language** | C# |
+| **Backend** | .NET, ASP.NET Core, Minimal APIs, REST APIs |
+| **Database** | PostgreSQL, Entity Framework Core, LINQ |
+| **Architecture** | Clean Architecture concepts, Vertical Slice Architecture, CQRS, MediatR |
+| **Security** | JWT Authentication, Role-Based Authorization, BCrypt |
+| **Testing** | Unit Testing, xUnit |
+| **Frontend** | HTML, CSS, JavaScript, React, Vite |
+| **Tools** | Git, Docker, Async/Await |
 
 ---
 
-### LogLens
+## ⭐ Featured project
 
-A simple log file analyzer built with C#.
+### 🏎️ F1 Telemetry
+A full-stack Formula 1 telemetry app with an F1.com-inspired interface, built on **real 2026 season data**.
 
-**Technologies:** C#, Async/Await, LINQ
+**Technologies:** React, Vite, Recharts, ASP.NET Core, PostgreSQL (Docker), Python (FastF1)
 
-* Log file generation
-* Asynchronous file reading
-* Filtering logs with LINQ
-
----
-
-### NotifyEngine
-
-A notification system focused on object-oriented programming and design patterns.
-
-**Technologies:** C#, OOP, Interfaces, Inheritance, Factory Pattern, Decorator Pattern
-
-* Email and SMS notification channels
-* Retry mechanism
-* Factory pattern for channel creation
-* Decorator pattern for additional behavior
+- Season data imported with **FastF1** into static JSON, race by race
+- **Dashboard:** per-driver lap picker (every saved lap), speed, throttle, brake, gear and RPM charts, sector breakdown
+- **Circuit maps** generated from real telemetry (X/Y positions and corners), with a live marker that follows the chart cursor
+- **Compare page:** two drivers head-to-head with lap delta and overlaid telemetry traces
+- **Cars & Drivers** page with 2026 and 2024 line-ups
+- Custom UI: dropdowns with driver avatars, page transitions, motion and micro-animations
 
 ---
 
-### LegacyRescue
+## 🚀 Backend projects
 
-A legacy code improvement project focused on refactoring and testing.
-
-**Technologies:** C#, xUnit, Unit Testing
-
-* Legacy code analysis
-* Refactoring
-* Unit tests
-* Separation of responsibilities
-
----
-
-### LinkVault API
-
-A REST API for storing and managing links.
-
-**Technologies:** ASP.NET Core, C#, Controllers, DTOs, Dependency Injection
-
-* REST API endpoints
-* DTO-based request handling
-* Validation
-* Dependency Injection
-* Logging
-
----
-
-### LinkVault Slices
-
-A redesigned version of LinkVault using modern API architecture.
-
-**Technologies:** ASP.NET Core, Minimal APIs, CQRS, MediatR, Vertical Slice Architecture
-
-* Minimal APIs
-* Feature-based project structure
-* CQRS
-* MediatR
-* Vertical Slice Architecture
-
----
-
-### Bookstore API
-
-A bookstore backend connected to a real PostgreSQL database.
-
-**Technologies:** ASP.NET Core, EF Core, PostgreSQL, LINQ
-
-* Books and authors
-* Entity relationships
-* EF Core migrations
-* PostgreSQL integration
-* CRUD operations
-* Filtering
-* DTO projections
-
----
-
-### TeamSpace API
-
+### 🔐 TeamSpace API
 A multi-tenant team management API with authentication and authorization.
+**Tech:** ASP.NET Core · PostgreSQL · EF Core · JWT · BCrypt
+- User registration and login with BCrypt password hashing
+- JWT authentication and role-based authorization
+- Admin-only and otherwise protected endpoints
+- Multi-tenancy with organization-level data isolation
 
-**Technologies:** ASP.NET Core, PostgreSQL, EF Core, JWT, BCrypt
+### 📚 Bookstore API
+A bookstore backend connected to a real PostgreSQL database.
+**Tech:** ASP.NET Core · EF Core · PostgreSQL · LINQ
+- Books and authors with entity relationships
+- EF Core migrations and PostgreSQL integration
+- CRUD operations, filtering and DTO projections
 
-* User registration and login
-* Password hashing with BCrypt
-* JWT authentication
-* Role-based authorization
-* Admin-only endpoints
-* Multi-tenancy
-* Organization-level data isolation
-* Protected API endpoints
+### 🔗 LinkVault Slices
+A redesign of LinkVault using modern API architecture.
+**Tech:** ASP.NET Core · Minimal APIs · CQRS · MediatR · Vertical Slice Architecture
+- Feature-based project structure
+- Commands and queries separated with CQRS and MediatR
 
-## 📚 Currently Learning
+### 🔗 LinkVault API
+A REST API for storing and managing links.
+**Tech:** ASP.NET Core · Controllers · DTOs · Dependency Injection
+- REST endpoints with DTO-based requests and validation
+- Dependency Injection and logging
 
-* Advanced ASP.NET Core
-* Backend architecture
-* Authentication & Authorization
-* Database design
-* API security
-* Testing
-* Clean and maintainable code
+### 🛟 LegacyRescue
+A legacy code improvement project focused on refactoring and testing.
+**Tech:** C# · xUnit
+- Legacy code analysis, refactoring and unit tests
+- Separation of responsibilities
 
-## 🎯 Goal
+### 🔔 NotifyEngine
+A notification system focused on OOP and design patterns.
+**Tech:** C# · OOP · Interfaces · Inheritance · Factory · Decorator
+- Email and SMS channels with a retry mechanism
+- Factory pattern for channel creation, Decorator pattern for extra behavior
 
-To become a strong **C# / .NET Backend Developer** by continuously building real-world projects and improving my understanding of software architecture, databases and secure API development.
+### 🔍 LogLens
+A log file analyzer.
+**Tech:** C# · Async/Await · LINQ
+- Log file generation, asynchronous reading and LINQ filtering
 
-## Contact
+### ✅ TaskFlow CLI
+A console task tracker.
+**Tech:** C# · JSON · Async/Await · File I/O
+- Task management with JSON persistence and asynchronous file operations
 
-📧 Email: rafiyevmahammad@gmail.com
+---
+
+## 📊 GitHub stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 📫 Let's connect
+
+<p align="center">
+  <a href="mailto:maqa.bakinski75@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
+
+<p align="center"><i>"Build it, break it, understand it, improve it."</i> 🏁</p>
